@@ -1,0 +1,10 @@
+.menu__item {
+    display: inline;
+    margin: 1rem;
+
+}
+.menu__link {
+    color: floralwhite;
+    text-decoration: none
+    
+}
