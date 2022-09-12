@@ -1,0 +1,13 @@
+.destaques {
+    background-color: var(--azul-claro);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.destaques__titulo {
+    color: var(--cinza-escuro);
+}
+.chamada__btn {
+    
+}
