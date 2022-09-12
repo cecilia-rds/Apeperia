@@ -1,0 +1,22 @@
+.chamada {
+    align-items: center;
+    background-color: var(--bg-chamada-mobile);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+.chamada__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.chamada__texto {
+    color: var(--branco);
+    font-size: 1.25rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+}
