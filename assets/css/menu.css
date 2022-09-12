@@ -1,10 +1,19 @@
-.menu__item {
-    display: inline;
-    margin: 1rem;
+.menu-nav {
+    text-align: center;
+}
 
+.menu__item {
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
 }
 .menu__link {
-    color: floralwhite;
-    text-decoration: none
-    
+    Color: floralwhite;
+    Font-size: 1.1rem;
+    text-decoration: none;
+
+}
+.menu__item:hover {
+    text-decoration: underline;
 }
