@@ -1,0 +1,12 @@
+.beneficios__item--tempo{
+    background-image: url(/assets/img/icone-relogio.png);
+    background-repeat: no-repeat;
+}
+.beneficios__item--foco {
+    background-color: url(/assets/img/icone-quimica.png);
+    background-repeat: no-repeat;
+}
+.beneficios__item--especialidades {
+    background-color: url(/assets/img/icone-dinheiro.png);
+    background-repeat: no-repeat;
+}
