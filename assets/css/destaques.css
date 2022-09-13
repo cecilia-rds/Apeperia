@@ -3,11 +3,36 @@
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
-
-
+.destaques__painel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.destaques__link {
+    color: var(--font-link-destaques);
+    text-decoration: none;
+}
 .destaques__titulo {
     color: var(--cinza-escuro);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
 }
-.chamada__btn {
-    
+.destaques__painel-img {
+    width: 100vw;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+.destaques__painel-txt {
+    font-weight: 700;
+    font-size: 1.2rem;
+}  
+.destaques__btn {
+    border-color: var(--vermelho-forte);
+    color: var(--vermelho-forte);
+    margin: 0 auto;
 }
