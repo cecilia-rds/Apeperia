@@ -28,6 +28,7 @@ body {
     padding-right: 6%;
 }
 .btn {
+    color: var(--branco);
     text-align: center;
     display: block;
     width: 100%;
@@ -36,4 +37,5 @@ body {
     padding: 1rem 2rem;
     border: 1px solid var(--branco);
     border-radius: 5px;
+    text-decoration: none;
 }
