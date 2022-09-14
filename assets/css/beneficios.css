@@ -1,12 +1,36 @@
-.beneficios__item--tempo{
-    background-image: url(/assets/img/icone-relogio.png);
+.beneficios {
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+
+}
+.beneficios__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.beneficios__item {
+    box-sizing: border-box;
+    background-position: top 1.25rem left 2.5rem;
+    max-width: 350px;
+    padding: 2rem 0 2rem 5rem;
+}
+.beneficios__titulo {
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+.beneficios__item--tempo {
+    background-image: url(../img/icone-relogio.png);
     background-repeat: no-repeat;
 }
 .beneficios__item--foco {
-    background-color: url(/assets/img/icone-quimica.png);
+    background-color: url(../img/icone-quimica.png);
     background-repeat: no-repeat;
 }
 .beneficios__item--especialidades {
-    background-color: url(/assets/img/icone-dinheiro.png);
+    background-color: url(../img/icone-dinheiro.png);
     background-repeat: no-repeat;
 }
