@@ -1,0 +1,12 @@
+.planos__titulo--start {
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--planos-cartao-start);;
+    color: var(--planos-cartao-start);
+}
+.planos__valor--start {
+    color: var(--planos-cartao-start);
+}
+.planos__btn--start {
+    border-color: var(--planos-cartao-start);
+    color: var(--planos-cartao-start);
+}

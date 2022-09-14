@@ -1,0 +1,12 @@
+.planos__titulo--mega {
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--planos-cartao-mega);
+    color: var(--planos-cartao-mega);
+}
+.planos__valor--mega {
+    color: var(--planos-cartao-mega);
+}
+.planos__btn--mega {
+    color: var(--planos-cartao-mega);
+    border-color: var(--planos-cartao-mega);;
+}

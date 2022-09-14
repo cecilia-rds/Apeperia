@@ -1,0 +1,13 @@
+.planos__titulo--ultra {
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--azul-claro);
+    color: var(--planos-cartao-ultra);
+}
+.planos__valor--ultra {
+    color: var(--planos-cartao-ultra);
+
+}
+.planos__btn--ultra {
+    border-color: var(--planos-cartao-ultra);;
+    color: var(--planos-cartao-ultra);
+}
