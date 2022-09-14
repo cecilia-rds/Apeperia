@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/chamada.css">
     <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/chamada.css">
+    <link rel="stylesheet" href="assets/css/destaques.css">
     <link rel="stylesheet" href="assets/css/beneficios.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
+    <link rel="stylesheet" href="assets/css/planos/planos.css">
+    <link rel="stylesheet" href="assets/css/planos/plano-start.css">
+    <link rel="stylesheet" href="assets/css/planos/plano-ultra.css">
+    <link rel="stylesheet" href="assets/css/planos/plano-mega.css">
     <title>Apeperia</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,124 +47,148 @@
             <a class="chamada__btn btn" href src="#">Conheça nossos planos</a>
 
         </section>
-        <section class="destaques">
-            Destaques
-            <img src="assets/img/Rectangle.png">
-
-            Conheça as primeiras etapas para a criação de um logotipo
-            <img src="assets/img/Rectangle(1).png" alt="">
-
-            Veja dicas de como fotografar usando seu celular
-
-            Receber destaques por email
-            <img src="assets/img/icone-relogio 2.png" alt="">
+        <section class="destaques container">
+            <h2 class="destaques__titulo">Destaques</h2>
+            <a class="destaques__link" href="#">
+                <figure class="destaques__painel">
+                    <img class="destaques__painel-img" src="assets/img/comecando-criar-logotipo.png">
+                    <figcaption class="destaques__painel-txt">Conheça as primeiras etapas para a criação de um logotipo</figcaption>
+                </figure>
+            </a>
+            <a class="destaques__link"href="#">
+                <figure class="destaques__painel">
+                    <img class="destaques__painel-img" src="assets/img/dicas-fotografia.png">
+                    <figcaption class="destaques__painel-txt">Veja dicas de como fotografar usando seu celular</figcaption>
+                </figure>
+            </a>
+            
+            <a href="#"class="destaques__btn btn">Receber destaques por email</a> 
         </section>
-        <section class="beneficios">
-        <ul>
-            <li class="beneficios__item--tempo">
-                <h2 class="beneficios__titulo">TEMPO</h2>
-                <p>Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos prazos.</p>
-            </li>
-            <li  class="beneficios__item--foco">
-                <h2 class="beneficios__titulo">FOCO</h2> 
-                <p class="beneficios__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.</P>
+        <section class="beneficios container">
+            <ul class="beneficios__lista">
+                <li class="beneficios__item beneficios__item--tempo">
+                    <h2 class="beneficios__titulo">TEMPO</h2>
+                    <p class="beneficios__txt">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos prazos.</p>
+                </li>
+                <li class="beneficios__item beneficios__item--foco">
+                    <h2 class="beneficios__titulo">FOCO</h2> 
+                    <p class="beneficios__txt">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.</P>
 
-            </li>
-            <li class="beneficios__item--especialidades">
-                <h2 class="beneficios__titulo">ESPECIALISTAS</h2>
-                <p>Experiente e especializada! Testamos todos os produtos antes do lançamento.</p> 
-            </li>
-        </ul> 
+                </li>
+                <li class="beneficios__item beneficios__item--especialidades">
+                    <h2 class="beneficios__titulo">ESPECIALISTAS</h2>
+                    <p class="beneficios__txt">Experiente e especializada! Testamos todos os produtos antes do lançamento.</p> 
+                </li>
+            </ul> 
 
         </section>
-        <section class="sobre">
-            SOBRE
+        <section class="sobre container">
+            <h2 class="sobre__titulo">SOBRE</h2>
 
-            Criamos aplicativos personalizados para todas as pessoas!
+            <p>Criamos aplicativos personalizados para <strong class="sobre__txt--destaque"> todas as pessoas!</strong></p>
 
-            A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.
+            <p class="sobre__txt">A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.</p>
 
-            Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
-
-
-            <img src="assets/img/android.png" alt="logo do android">
-
-            <img src="assets/img/blackberry.png" alt="">
-
-            <img src="assets/img/IOS.png" alt="">
-
-            <img src="assets/img/android.png" alt="">
-
-            Desenvolvemos aplicativos para todas as plataformas
-
-            <img src="assets/img/pessoas.png" alt="">
+            <p class="sobre__txt--destaque">Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.</p>
+            <ul class="sobre__plataformas">
+                <li class="sobre__plataformas-item">
+                    <img src="assets/img/android.png" alt="logo do android">
+                </li>
+                <li class="sobre__plataformas-item">
+                    <img src="assets/img/blackberry.png" alt="">
+                </li>
+                <li class="sobre__plataformas-item">
+                    <img src="assets/img/apple.png" alt="">
+                </li>
+                <li class="sobre__plataformas-item">
+                    <img src="assets/img/windowsphone.png" alt="">
+                </li>
+            </ul>
+            <p class="sobre__txt">Desenvolvemos aplicativos para todas as plataformas</p>
         </section>
-        
-
-
-        <section class="planos">
-            PLANOS
-
-            <div>Start
-                R$ 500
-                5 manutenções mensais 
-                App SEO
-                1 sistema operacional
-                Assinar plano
-            </div>
-            <div>
-                Ultra
-                R$ 1500
-                20 manutenções mensais
-                App SEO
-                4 sistemas operacionais
-                24h de atendimento
-                Assinar plano
-            </div>
-            <div>
-                Mega
-                R$ 1000
-                10 manutenções mensais
-                App SEO
-                2 sistemas operacionais
-            </div> 
+        <section class="planos container">
+            <h2 class="planos__titulo">PLANOS</h2>
+            <ul class="planos__cartao">
+                <li class="planos__opcoes">
+                    <h3 class="planos__titulo planos__titulo--start">Start</h3>
+                    <article class="plano__cartao">
+                        <p class="planos__valor planos__valor--start">R$ 500</p>
+                        <p class="planos__descricao">5 manutenções mensais</p>
+                        <p class="planos__descricao">App SEO</p>
+                        <p class="planos__descricao">1 sistema operacional</p>
+                        <a class="btn planos__btn planos__btn--start" href="#">Assinar plano</a>
+                    </article>
+                </li>
+                <li class="planos__opcoes">
+                    <h3 class="planos__titulo planos__titulo--ultra">Ultra</h3>
+                    <article class="planos__cartao">                
+                        <p class="planos__valor planos__valor--ultra">R$ 1500</p>
+                        <p class="planos__descricao">20 manutenções mensais</p>
+                        <p class="planos__descricao">App SEO</p>
+                        <p class="planos__descricao">4 sistemas operacionais</p>
+                        <p class="planos__descricao">24h de atendimento</p>
+                        </p>
+                        <a class="btn planos__btn planos__btn--ultra" href="#">Assinar plano</a>
+                    </article>
+                </li>
+                <li class="planos__opcoes">
+                    <h3 class="planos__titulo planos__titulo--mega">Mega</h3>
+                    <article class="plano__cartao">                
+                        <p class="planos__valor planos__valor--mega">R$ 1000</p>
+                        <p class="planos__descricao">20 manutenções mensais</p>
+                        <p class="planos__descricao">10 manutenções mensais</p>
+                        <p class="planos__descricao">App SEO</p>
+                        <p class="planos__descricao">2 sistemas operacionais</p>
+                        <a class="btn planos__btn planos__btn--mega" href="#">Assinar plano</a>
+                    </article>
+                </li>
+            </ul>
         </section>
-
-        <section class="contato">
-            Contato
-
-            Entre em contato com a gente
-
-            Entre em contato
-
-            Institucional
-
-            Um pouco mais sobre a Apeperia
-            Rua Vergueiro, 3185
-            Vila Mariana, São Paulo
-            (11) 5571-2751
-            ou
-            contato@apeperia.com
-
-            Um pouco mais sobre a Apeperia
-            Rua Vergueiro, 3185
-            Vila Mariana, São Paulo
-            (11) 5571-2751
-            ou
-            contato@apeperia.com
-
+        <section class="contato container">
+            <h2 class="contato__titulo">Contato</h2>
+            <p class="contato__descricao">Entre em contato com a gente</p>
+            <p class="contato__btn btn">Entre em contato</p> 
+        </section>
+        <section class="institucional container">
+            <h2 class="institucional__titulo">Institucional</h2>
+            <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
+            <address  class="institucional__endereco">Rua Vergueiro, 3185</br>Vila Mariana, São Paulo   
+                <article class="institucional__contato">
+                    <p><a class="institucional__contato-telefone" href="tel:+551155712751">(11)5571-2751</a> ou <a class="institucional__email"href="malito:contato@apareria.com"></a></p>
+                </article>
+            </address>
+            <video class="institucional__video" src="assets/video/formacao-java.mp4" controls></video>
         </section>
     </main>
     <footer>
-        <img class="logo-footer"" src="assets/img/Vector.png" alt="logo Apaperia">
-        <ul class="menu-footer">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Planos</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Destaques</a></li>
-            <li><a href="#">Institucional</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <section class="rodape">
+            <img class="rodape__logo" src="assets/img/logo-apeperia.svg" alt="logo Apaperia">
+            <ul class="rede-sociais">
+                <li class="rede-sociais__item">
+                    <a href="#">
+                        <img src="assets/img/facebook.png"></a>
+                </li>
+                <li class="rede-sociais__item">
+                    <a href="">
+                        <img src="assets/img/twitter.png"></a>
+                </li>
+                <li class="rede-sociais__item">
+                    <a href="">
+                        <img src="assets/img/instagram.png"></a>
+                </li>
+            </ul>
+            <nav>
+                <ul class="menu-footer">
+                    <li class="menu__item"><a class="menu__link"href="#">Sobre</a></li>
+                    <li class="menu__item"><a class="menu__link"href="#">Planos</a></li>
+                    <li class="menu__item"><a class="menu__link"href="#">Blog</a></li>
+                    <li class="menu__item"><a class="menu__link"href="#">Destaques</a></li>
+                    <li class="menu__item"><a class="menu__link"href="#">Institucional</a></li>
+                    <li class="menu__item"><a class="menu__link"href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+        </section>
     </footer>
 </body>
 </html>
