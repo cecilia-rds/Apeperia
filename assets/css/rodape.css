@@ -1,0 +1,27 @@
+.rodape {
+    background-color: var(--bg-rodape);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.rodape__logo {
+    width: 10rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.rede-sociais {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.rede-sociais__item {
+    margin: 1rem;
+}
+.menu-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+
+} 
