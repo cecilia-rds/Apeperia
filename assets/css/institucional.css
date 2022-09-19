@@ -1,0 +1,38 @@
+.institucional {
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.institucional__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+.institucional__descricao {
+    padding-bottom: 1.25rem;
+
+}
+.institucional__endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+.institucional__tel {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+
+}
+.institucional__email {
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
