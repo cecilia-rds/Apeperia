@@ -27,10 +27,10 @@
     background-repeat: no-repeat;
 }
 .beneficios__item--foco {
-    background-color: url(../img/icone-quimica.png);
+    background-image: url(../img/icone-quimica.png);
     background-repeat: no-repeat;
 }
 .beneficios__item--especialidades {
-    background-color: url(../img/icone-dinheiro.png);
+    background-image: url(../img/icone-dinheiro.png);
     background-repeat: no-repeat;
 }
