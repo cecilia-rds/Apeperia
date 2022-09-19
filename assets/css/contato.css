@@ -1,0 +1,27 @@
+.contato__titulo {
+    color: var(--cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    padding-top: 2rem;
+
+}
+.contato__descricao {
+    display: flex;
+    justify-content: center;
+}
+.contato__btn {
+    display: flex;
+    justify-content: center;
+    color: var(--cinza-escuro);
+    border-color: var(--cinza-escuro);
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
