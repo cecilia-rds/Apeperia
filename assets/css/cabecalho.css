@@ -1,6 +1,7 @@
 header {
     background-color: var(--bg-chamada-mobile);
     color: var(--branco);
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
 }
 .cabecalho {
     display: flex;
