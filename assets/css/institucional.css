@@ -39,3 +39,13 @@
 .institucional__video {
     width: auto;
 }
+@media screen and (min-width: 768px) {
+
+    .institucional__email {
+        display: inline-block;
+    }
+    .institucional__video {
+        width: 100%;
+    }
+    
+}
