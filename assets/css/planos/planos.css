@@ -48,3 +48,10 @@
     width: 60%;
     margin-bottom: 1rem;
 }
+@media screen and (min-width: 768px) {
+
+    .cartao__opcoes {
+        max-width: 400px;
+    }
+    
+}
