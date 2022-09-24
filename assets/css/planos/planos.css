@@ -1,22 +1,22 @@
 .planos {
     background-color: var(--cinza-claro);
-    
 }
-.planos__cartao {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
+.planos__cartoes {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
 }
 .planos__opcoes {
-    background-color: var(--branco);
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 15rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px 2px #00000010;
-    margin-bottom: 1rem;
+   background-color: var(--branco);
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   width: 15rem;
+   border-radius: 5px;
+   box-shadow: 0 2px 10px 2px #00000010;
+   margin-bottom: 1rem;
+
 }   
 .planos__titulo {
     color: var(--cinza-escuro);
@@ -31,8 +31,6 @@
     color: var(--fonte-cinza);
     line-height: 28px;
     margin-left: 2rem;
-
-
 }
 
 .planos__valor {
@@ -44,14 +42,20 @@
 }
 .planos__btn {
     margin: 0 auto;
+    margin-bottom: 1rem;
     margin-top: 1rem;
     width: 60%;
-    margin-bottom: 1rem;
-}
-@media screen and (min-width: 768px) {
 
-    .cartao__opcoes {
-        max-width: 400px;
+}
+@media screen and (min-width: 1024px) {
+
+    .planos__cartoes {
+        display: flex;
+        flex-direction: row;
     }
-    
+    .planos__opcoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }   
 }
