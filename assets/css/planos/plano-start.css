@@ -9,4 +9,5 @@
 .planos__btn--start {
     border-color: var(--planos-cartao-start);
     color: var(--planos-cartao-start);
+    margin-top: 2.5rem;
 }
