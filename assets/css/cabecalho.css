@@ -12,3 +12,11 @@ header {
 .cabecalho__logo {
     margin-bottom: 1rem;
 }
+
+@media screen and (min-width:1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+}
