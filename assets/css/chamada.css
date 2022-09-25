@@ -31,3 +31,15 @@
     }
     
 }
+@media screen and (min-width:1024px) {
+    .chamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+        padding-top: 4.25rem;
+
+    }
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
