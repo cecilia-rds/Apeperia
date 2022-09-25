@@ -44,8 +44,10 @@
     .institucional__email {
         display: inline-block;
     }
+       .institucional__tel {
+        display: inline-block;
+    }
     .institucional__video {
         width: 100%;
     }
-    
 }
