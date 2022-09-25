@@ -34,3 +34,9 @@
     background-image: url(../img/icone-dinheiro.png);
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 1024px) {
+    .beneficios {
+        background-color: var(--cinza-claro);
+    }
+}
