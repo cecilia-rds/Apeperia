@@ -22,3 +22,30 @@
     margin-right: 3rem;
     padding-bottom: 1rem;
 }
+.sobre__img {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre__titulo {
+        text-align: left;
+        padding-top: 1rem;
+    }
+    .sobre__txt {
+        width: 550px;
+    }
+    .sobre__txt--destaque {
+        border-bottom: 1px solid var(--cinza-medio);
+        width: 550px;
+    }
+    .sobre__plataformas {
+        padding-top: 1rem;
+        width: 450px;
+    }
+ 
+
+}
