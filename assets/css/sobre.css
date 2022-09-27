@@ -29,23 +29,24 @@
 @media screen and (min-width: 1024px) {
     .sobre {
         display: flex;
-        flex-direction: column;
+        width: 850px;
     }
     .sobre__titulo {
+        display: flex;
+        flex-direction: column;
         text-align: left;
         padding-top: 1rem;
     }
-    .sobre__txt {
-        width: 550px;
-    }
     .sobre__txt--destaque {
         border-bottom: 1px solid var(--cinza-medio);
-        width: 550px;
     }
     .sobre__plataformas {
         padding-top: 1rem;
         width: 450px;
     }
- 
+    .sobre__img {
+        display: block;
+        margin-left: 5rem;
+    }
 
 }
