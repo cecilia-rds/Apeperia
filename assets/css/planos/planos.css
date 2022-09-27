@@ -47,15 +47,14 @@
     width: 60%;
 
 }
+@media screen and (min-width: 768px) {
+    .planos__opcoes {
+        max-width: 300px;
+    }
+}
 @media screen and (min-width: 1024px) {
-
     .planos__cartoes {
         display: flex;
         flex-direction: row;
-    }
-    .planos__opcoes {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }   
+     }
 }
