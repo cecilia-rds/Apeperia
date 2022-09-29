@@ -54,24 +54,20 @@
 
 @media screen and (min-width: 1024px) {
 
-    .institucional__info {
+    .institucional__conteudo {
+        width: 100%;
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
         text-align: left;
-        width: 400px;
-
-  
     }
-    .institucional__descricao {
-        display: flex;
-    }
-
 
     .institucional__video {
-        display: flex;
-        flex-direction: row;
+        align-self: flex-end;
         width: 375px;
+    }
 
+    .institucional__contato-email {
+        display: block;
     }
 
 
