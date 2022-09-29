@@ -55,10 +55,24 @@
 @media screen and (min-width: 1024px) {
 
     .institucional__info {
-        
-      
-        width: 350px;
-     
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        width: 400px;
+
+  
     }
+    .institucional__descricao {
+        display: flex;
+    }
+
+
+    .institucional__video {
+        display: flex;
+        flex-direction: row;
+        width: 375px;
+
+    }
+
 
 }
