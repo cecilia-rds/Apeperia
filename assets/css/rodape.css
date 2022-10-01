@@ -21,10 +21,14 @@
 .menu-footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    padding-top: 2rem;
+    padding: 2rem;
 
 } 
+@media screen and (min-width: 768px) {
+
+}
 
 @media screen and (min-width: 1024px) {
 
