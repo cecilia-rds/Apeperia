@@ -6,9 +6,6 @@
 </p>
 
 
-![Design preview for the page coding](../img/preview.PNG)
-
-
 ## 💻 Sobre o projeto
 
 Este projeto foi desenvolvido durante os estudos sobre responsividade e foi aplicado o conceito de Mobile First.
