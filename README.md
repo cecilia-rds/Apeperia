@@ -2,7 +2,7 @@
 <h1 align="center">Apeperia</h1>
 
 <p align="center"> 
- Status do projeto: :warning: (em desenvolvimento)
+ Status do projeto: :heavy_check_mark: (Finalised)
 </p>
 
 
