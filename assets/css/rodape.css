@@ -9,13 +9,13 @@
     margin: 0 auto;
     padding-top: 2rem;
 }
-.rede-sociais {
+.redes-sociais {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     padding-top: 2rem;
 }
-.rede-sociais__item {
+.redes-sociais__item {
     margin: 1rem;
 }
 .menu-footer {
@@ -25,3 +25,23 @@
     padding-top: 2rem;
 
 } 
+
+@media screen and (min-width: 1024px) {
+
+    .rodape {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .rodape__logo {
+        margin: 2%;
+    }
+    .redes-sociais {
+        margin: 1%;
+    }
+    .rodape__navegacao {
+        text-align: left;
+        min-width: 600px;
+    }
+
+}
