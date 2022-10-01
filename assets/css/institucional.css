@@ -37,18 +37,19 @@
 
 }
 .institucional__video {
-    width: auto;
+    width: 90%;;
 }
 @media screen and (min-width: 768px) {
 
     .institucional__email {
         display: inline-block;
     }
-       .institucional__tel {
+    .institucional__tel {
         display: inline-block;
     }
     .institucional__video {
-        width: 100%;
+        width: 50%;
+  
     }
 }
 
@@ -63,7 +64,7 @@
 
     .institucional__video {
         align-self: flex-end;
-        width: 375px;
+        width: 50%;
     }
 
     .institucional__contato-email {
