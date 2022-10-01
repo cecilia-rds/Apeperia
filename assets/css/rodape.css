@@ -23,7 +23,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    padding: 2rem;
+    padding-top: 2rem;
 
 } 
 @media screen and (min-width: 768px) {
